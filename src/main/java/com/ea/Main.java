@@ -30,7 +30,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Selenium 4
-        System.setProperty("webdriver.chrome.driver", "C:/2020/Softwares/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "D:/2020/Softwares/chromedriver");
         var chromeDriver = new ChromeDriver();
 
         var chromeDevTools = chromeDriver.getDevTools();
